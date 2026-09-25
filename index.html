@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Collision Detection 2D</title>
+    <link rel="stylesheet" href="/src/style.css" />
+  </head>
+  <body>
+    <div id="app">
+      <header>
+        <h1>Collision Detection 2D</h1>
+        <p>Drag bodies around; the panel reports every pair's overlap live.</p>
+      </header>
+      <div id="layout">
+        <canvas id="scene" width="760" height="520" aria-label="Collision playground"></canvas>
+        <aside id="panel">
+          <section id="controls"></section>
+          <section id="stats"></section>
+          <section id="pairs"></section>
+        </aside>
+      </div>
+    </div>
+    <script type="module" src="/src/main.ts"></script>
+  </body>
+</html>
